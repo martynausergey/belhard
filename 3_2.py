@@ -1,5 +1,5 @@
-a = int (input("Число"))
-b = int (input("Число"))
-c = int (input("Число"))
-summa = (a + b + c)  / 3
+a = int (input("Число a "))
+b = int (input("Число b "))
+c = int (input("Число c "))
+summa = round((a + b + c)  / 3, 3)
 print(summa)
