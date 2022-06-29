@@ -1,9 +1,9 @@
 #Вывести где нет email'а
 users = {
     1: {
-        "name": "Имя",
-        "lname": "Фамилия",
-        "number": "Телефон",
+        "name": "Костя",
+        "lname": "Шило",
+        "number": "1998",
         "email": "info@info.com"
     },
     2: {
