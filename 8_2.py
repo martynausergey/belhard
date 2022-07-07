@@ -5,8 +5,9 @@ def paginator(next_lst: lst):
     print(lst)
     n = str
     i = 0
-    while n == '<' or '>':
+    while True:
         n = str(input("< or > "))
+        n == '<' or '>':
         if '<' in n:
             if i == 0:
                 i = len(next_lst)
